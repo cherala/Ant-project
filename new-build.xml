@@ -1,9 +1,0 @@
-Hello World!
-This XML file done not appear to have any stuole information associated with it. The doucment tree is shown below.
-<project name="My Project" default="Hello">
-<target name="hello">
-<echo>Hello World!</echo>
-</target>
-<target name="hello">...</target>
-</project>
-<project name="My Project" default="hello">...</project>
