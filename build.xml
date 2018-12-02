@@ -4,3 +4,4 @@
 			<echo>Hello World - Welcome to Apache Ant!</echo>
 	   </target>
    	</project>
+</xml>
