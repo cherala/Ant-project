@@ -1,6 +1,9 @@
- <?xml version="1.0"?>
-    <project name="Hello World Project" default="info">
-       <target name="info">
-			<echo>Hello World - Welcome to Apache Ant!</echo>
-	   </target>
-   	</project>
+Hello World!
+This XML file done not appear to have any stuole information associated with it. The doucment tree is shown below.
+<project name="My Project" default="Hello">
+<target name="hello">
+<echo>Hello World!</echo>
+</target>
+<target name="hello">...</target>
+</project>
+<project name="My Project" default="hello">...</project>
