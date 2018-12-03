@@ -1,18 +1,6 @@
-<target name="junit" depends="compile">
-
-    <junit printsummary="yes" haltonfailure="no">
-
-	<!-- Project classpath, must include junit.jar -->
-	<classpath refid="test.path" />
-		
-	<!-- test class -->
-	<classpath location="${test.classes.dir}" />
-		
-	<test name="com.mkyong.test.TestMessage" 
-		haltonfailure="no" todir="${report.dir}">
-		<formatter type="plain" />
-		<formatter type="xml" />
-	</test>
-		
-  </junit>
-</target>
+ <?xml version="1.0"?>
+    <project name="Hello World Project" default="info">
+       <target name="info">
+			<echo>Hello World - Welcome to Apache Ant!</echo>
+	   </target>
+   	</project>
